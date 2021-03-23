@@ -1,5 +1,5 @@
 import 'dart:math' as math;
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' show MediaQueryData, BuildContext, MediaQuery, Orientation;
 
 class SizeConfig {
   // height
