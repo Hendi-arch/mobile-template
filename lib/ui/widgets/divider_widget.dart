@@ -12,7 +12,7 @@ class DividerWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        width: _sizeConfig!.getWidth(context, width),
-        height: _sizeConfig!.getHeight(context, height));
+        width: _sizeConfig!.getWidth(width),
+        height: _sizeConfig!.getHeight(height));
   }
 }

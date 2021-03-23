@@ -10,12 +10,8 @@ class CustomTextWidget extends StatelessWidget {
   final SizeConfig? _sizeConfig = locator<SizeConfig>();
 
   CustomTextWidget(
-      {Key? key,
-      this.size = 14,
-      required this.caption,
-      this.color = Colors.white, this.fontWeight = FontWeight.normal})
-      : assert(caption != null),
-        super(key: key);
+      {Key? key, this.size = 14, required this.caption, this.color = Colors.white, this.fontWeight = FontWeight.normal})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -24,6 +20,6 @@ class CustomTextWidget extends StatelessWidget {
             color: color,
             fontFamily: 'Lato',
             fontWeight: fontWeight,
-            fontSize: size * _sizeConfig!.getScaleDiagonal(context)));
+            fontSize: size * _sizeConfig!.getScaleDiagonal()));
   }
 }

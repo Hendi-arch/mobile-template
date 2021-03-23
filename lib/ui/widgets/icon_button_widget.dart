@@ -5,10 +5,7 @@ class IconButtonWidget extends StatelessWidget {
   final IconData iconData;
   final Function onPressed;
 
-  IconButtonWidget({Key? key, required this.iconData, required this.onPressed})
-      : assert(iconData != null),
-        assert(onPressed != null),
-        super(key: key);
+  IconButtonWidget({Key? key, required this.iconData, required this.onPressed}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

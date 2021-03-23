@@ -11,16 +11,13 @@ class CustomButtonWidget extends StatelessWidget {
   final SizeConfig? _sizeConfig = locator<SizeConfig>();
 
   CustomButtonWidget({Key? key, this.onPressed, this.width = 298, this.height = 36, required this.captionButton})
-      : assert(width != null),
-        assert(height != null),
-        assert(captionButton != null),
-        super(key: key);
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
-        width: _sizeConfig!.getWidth(context, width),
-        height: _sizeConfig!.getWidth(context, height),
+        width: _sizeConfig!.getWidth(width),
+        height: _sizeConfig!.getWidth(height),
         decoration: BoxDecoration(
             gradient: const LinearGradient(
                 colors: [Color(0xffA0CB53), Color(0xff6A9849)],
@@ -29,8 +26,8 @@ class CustomButtonWidget extends StatelessWidget {
             borderRadius: BorderRadius.circular(86.0)),
         child: TextButton(
             child: Text(captionButton,
-                style: TextStyle(
-                    fontFamily: 'Lato', color: Colors.white, fontSize: 14 * _sizeConfig!.getScaleDiagonal(context))),
+                style:
+                    TextStyle(fontFamily: 'Lato', color: Colors.white, fontSize: 14 * _sizeConfig!.getScaleDiagonal())),
             onPressed: onPressed as void Function()?,
             style: ButtonStyle(
                 visualDensity: VisualDensity.adaptivePlatformDensity,

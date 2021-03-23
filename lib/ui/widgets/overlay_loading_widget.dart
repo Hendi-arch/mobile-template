@@ -14,8 +14,8 @@ class OverlayLoadingWidget extends StatelessWidget {
         child: Container(
             color: Colors.black,
             alignment: Alignment.center,
-            width: _sizeConfig!.getScreenWidth(context),
-            height: _sizeConfig!.getScreenHeight(context),
+            width: _sizeConfig!.screenWidth,
+            height: _sizeConfig!.screenHeight,
             child: UnconstrainedBox(child: LoadingWidget(strokeWidth: 2.0))));
   }
 }

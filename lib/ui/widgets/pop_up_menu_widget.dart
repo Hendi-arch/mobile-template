@@ -15,8 +15,7 @@ class PopUpMenuWidget<T> extends StatelessWidget {
       required this.onSelected,
       this.icon = Icons.more_vert,
       this.iconColor = Colors.white})
-      : assert(onSelected != null),
-        assert(items != null || items.isNotEmpty),
+      : assert(items.isNotEmpty),
         super(key: key);
 
   @override
@@ -27,17 +26,13 @@ class PopUpMenuWidget<T> extends StatelessWidget {
                 child: Center(
                     child: Column(children: [
                   IconWidget(iconData: element.keys.single),
-                  CustomTextWidget(
-                      caption: element.values.single.keys.single,
-                      color: const Color(0xffA0CB53),
-                      size: 14)
+                  CustomTextWidget(caption: element.values.single.keys.single, color: const Color(0xffA0CB53), size: 14)
                 ])),
                 value: element.values.single.values.single))
             .toList(),
         color: Colors.white,
         onSelected: onSelected,
         icon: IconWidget(iconData: icon, color: iconColor),
-        shape:
-            RoundedRectangleBorder(borderRadius: BorderRadius.circular(18.0)));
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18.0)));
   }
 }

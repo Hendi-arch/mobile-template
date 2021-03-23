@@ -1,5 +1,5 @@
 import 'dart:math' as math;
-import 'package:flutter/material.dart' show MediaQuery, BuildContext;
+import 'package:flutter/material.dart';
 
 class SizeConfig {
   // height
@@ -9,45 +9,52 @@ class SizeConfig {
   // diagonal
   final double dd = 844.45;
 
-  double getWidth(BuildContext context, double dx) {
-    double result = dx / dw * MediaQuery.of(context).size.width;
+  // device size general
+  double? screenWidth;
+  double? screenHeight;
+  double? barHeightTop;
+  double? barHeightBottom;
+  bool? deviceOrientation;
+  MediaQueryData? mediaQueryData;
+
+  void initSizeDeviceInfo(BuildContext context) {
+    mediaQueryData = MediaQuery.of(context);
+    screenWidth = mediaQueryData!.size.width;
+    screenHeight = mediaQueryData!.size.height;
+    barHeightTop = mediaQueryData!.padding.top;
+    barHeightBottom = mediaQueryData!.padding.bottom;
+    deviceOrientation = mediaQueryData!.orientation == Orientation.portrait;
+  }
+
+  double getWidth(double dx) {
+    double result = dx / dw * mediaQueryData!.size.width;
     return result;
   }
 
-  double getHeight(BuildContext context, double dy) {
-    double result = dy / dh * MediaQuery.of(context).size.height;
+  double getHeight(double dy) {
+    double result = dy / dh * mediaQueryData!.size.height;
     return result;
   }
 
-  double getFontSize(BuildContext context, double size) {
+  double getFontSize(double size) {
     double result = size / 100 * 33;
     return result;
   }
 
-  double getDiagonal(BuildContext context, double d) {
-    double h = MediaQuery.of(context).size.height;
-    double w = MediaQuery.of(context).size.width;
+  double getDiagonal(double d) {
+    double w = mediaQueryData!.size.width;
+    double h = mediaQueryData!.size.height;
     return (d / dd * (math.sqrt((h * h) + (w * w))));
   }
 
-  double getPaddingHeight(BuildContext context, double p) {
-    double result = p / dh * MediaQuery.of(context).size.height;
+  double getPaddingHeight(double p) {
+    double result = p / dh * mediaQueryData!.size.height;
     return result;
   }
 
-  double getScreenHeight(BuildContext context) {
-    double result = MediaQuery.of(context).size.height;
-    return result;
-  }
-
-  double getScreenWidth(BuildContext context) {
-    double result = MediaQuery.of(context).size.width;
-    return result;
-  }
-
-  double getScaleDiagonal(BuildContext context) {
-    double w = MediaQuery.of(context).size.height;
-    double h = MediaQuery.of(context).size.width;
+  double getScaleDiagonal() {
+    double w = mediaQueryData!.size.width;
+    double h = mediaQueryData!.size.height;
     return (dd / (math.sqrt((w * w) + (h * h))));
   }
 }

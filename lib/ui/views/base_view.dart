@@ -25,7 +25,6 @@ class BaseView extends StatelessWidget {
       required this.itemCount,
       required this.itemBuilder})
       : this.child = null,
-        assert(itemCount != null),
         assert(itemBuilder != null),
         this.useStaticView = false,
         super(key: key);
@@ -41,7 +40,6 @@ class BaseView extends StatelessWidget {
       this.drawer,
       required Widget this.child})
       : this.itemCount = 0,
-        assert(child != null),
         this.itemBuilder = null,
         this.useStaticView = true,
         super(key: key);

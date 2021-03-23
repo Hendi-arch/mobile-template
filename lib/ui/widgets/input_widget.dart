@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart'
-    show FilteringTextInputFormatter, TextInputFormatter;
+import 'package:flutter/services.dart' show FilteringTextInputFormatter, TextInputFormatter;
 import 'package:mobile_template/app/app.locator.dart';
 import 'package:mobile_template/shared/size_config.dart';
 
@@ -56,11 +55,7 @@ class CustomTextFormField extends StatelessWidget {
       this.fontColor = const Color(0xffA0CB53),
       this.inputBorderColor = const Color(0xffA0CB53),
       this.marginInputBox = const EdgeInsets.symmetric(vertical: 10)})
-      : assert(labelText != null),
-        assert(inputAreaWidth != null),
-        assert(inputAreaHeight != null),
-        assert(textEditingController != null),
-        super(key: key);
+      : super(key: key);
 
   CustomTextFormField.forNumberOnly(
       {Key? key,
@@ -86,13 +81,7 @@ class CustomTextFormField extends StatelessWidget {
         this.borderRadius = 86.0,
         this.fillColor = Colors.white,
         this.textInputType = TextInputType.number,
-        this.inputFormatter = <TextInputFormatter>[
-          FilteringTextInputFormatter.digitsOnly
-        ],
-        assert(labelText != null),
-        assert(inputAreaWidth != null),
-        assert(inputAreaHeight != null),
-        assert(textEditingController != null),
+        this.inputFormatter = <TextInputFormatter>[FilteringTextInputFormatter.digitsOnly],
         super(key: key);
 
   CustomTextFormField.forTextOnly(
@@ -119,13 +108,7 @@ class CustomTextFormField extends StatelessWidget {
         this.borderRadius = 86.0,
         this.fillColor = Colors.white,
         this.textInputType = TextInputType.text,
-        this.inputFormatter = <TextInputFormatter>[
-          FilteringTextInputFormatter.deny(RegExp(r'[0-9]'))
-        ],
-        assert(labelText != null),
-        assert(inputAreaWidth != null),
-        assert(inputAreaHeight != null),
-        assert(textEditingController != null),
+        this.inputFormatter = <TextInputFormatter>[FilteringTextInputFormatter.deny(RegExp(r'[0-9]'))],
         super(key: key);
 
   @override
@@ -143,9 +126,7 @@ class CustomTextFormField extends StatelessWidget {
                 onChanged: onChanged,
                 validator: validator,
                 style: TextStyle(
-                    color: fontColor,
-                    fontFamily: 'Lato',
-                    fontSize: fontSize * _sizeConfig!.getScaleDiagonal(context)),
+                    color: fontColor, fontFamily: 'Lato', fontSize: fontSize * _sizeConfig!.getScaleDiagonal()),
                 obscureText: obscureText,
                 keyboardType: textInputType,
                 inputFormatters: inputFormatter,
@@ -158,16 +139,13 @@ class CustomTextFormField extends StatelessWidget {
                     labelStyle: TextStyle(
                         color: fontColor,
                         fontFamily: 'Lato',
-                        fontSize:
-                            fontSize * _sizeConfig!.getScaleDiagonal(context)),
+                        fontSize: fontSize * _sizeConfig!.getScaleDiagonal()),
                     contentPadding: contentPadding,
                     enabledBorder: OutlineInputBorder(
-                        borderSide:
-                            BorderSide(width: 2, color: inputBorderColor),
+                        borderSide: BorderSide(width: 2, color: inputBorderColor),
                         borderRadius: BorderRadius.circular(borderRadius)),
                     focusedBorder: OutlineInputBorder(
-                        borderSide:
-                            BorderSide(width: 2, color: inputBorderColor),
+                        borderSide: BorderSide(width: 2, color: inputBorderColor),
                         borderRadius: BorderRadius.circular(borderRadius))),
                 controller: textEditingController,
                 cursorColor: const Color(0xffA0CB53),
