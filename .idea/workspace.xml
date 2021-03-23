@@ -10,7 +10,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3ecdb3c-6fe8-47b0-b8fe-9a942a855276" name="Default Changelist" comment="initial commit" />
+    <list default="true" id="a3ecdb3c-6fe8-47b0-b8fe-9a942a855276" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/route_name.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/route_name.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/api/api.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/api/api.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/constant/constant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/constant/constant.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/model/master/barang/barang_ext_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/model/master/user/user_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/model/master/user/user_navigasi_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/model/transaction/dokumen/dokumen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/model/transaction/penerimaan_barang/penerimaan_barang_detail_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/model/transaction/penerimaan_barang/penerimaan_barang_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/model/transaction/penerimaan_barang/post_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/model/transaction/penugasan/penugasan_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/model/transaction/permintaan_barang/permintaan_barang_detail_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/model/transaction/permintaan_barang/permintaan_barang_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/model/transaction/permintaan_barang/post_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/model/transaction/persetujuan/persetujuan_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/model/transaction/stock_opname/post_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/model/transaction/stock_opname/stock_opname_detail_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/model/transaction/stock_opname/stock_opname_model.dart" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616472514495</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1616472970382</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616472970382</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,7 +105,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616470788712">

@@ -1,7 +1,5 @@
 // Const Keys
 const currentLocale = 'currentLocale';
-const userToken = 'userToken';
-const expireTokenDate = 'expireTokenDate';
 
 // Path to save base locale
 const BaseLocalePath = 'baseLocale';
