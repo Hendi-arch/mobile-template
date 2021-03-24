@@ -11,21 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3ecdb3c-6fe8-47b0-b8fe-9a942a855276" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/.dart_tool/build/098d3ee73e6cc294616d3a2e2c3c81ad/asset_graph.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/build/entrypoint/.packageLocations" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/build/entrypoint/build.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/build/entrypoint/build.dart.snapshot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/build_resolvers/sdk.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/build_resolvers/sdk.sum.deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/hendinoviansyah.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/hendinoviansyah.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mobile-template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mobile-template.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core/viewmodels/startup/startup_view_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/viewmodels/startup/startup_view_model.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shared/size_config.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shared/size_config.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/views/base_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/base_view.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/views/startup/start_up_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/startup/start_up_view.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/button_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/button_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/custom_text_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/custom_text_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/divider_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/divider_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/icon_button_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/icon_button_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/icon_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/icon_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/input_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/input_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/overlay_loading_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/overlay_loading_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/pop_up_menu_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/pop_up_menu_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616473452033</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update &amp; clean code">
+      <created>1616521047863</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616521047863</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <created>1616521272537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616521272537</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +122,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
+    <MESSAGE value="update &amp; clean code" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>

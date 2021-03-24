@@ -32,7 +32,7 @@ dependencies:
   xulu_services: # bundle of services
     git:
       url: git@github.com:Hendi-arch/xulu_services.git
-      ref: bbbf79ff31ad7181772835f0a18b03fd723f25c4
+      ref: 69a9019d1da3e631c00f9266459638fd571f18b8
 
 dev_dependencies:
   flutter_test:

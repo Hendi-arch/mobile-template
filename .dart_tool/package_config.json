@@ -525,7 +525,7 @@
     },
     {
       "name": "xulu_services",
-      "rootUri": "file:///Users/hendinoviansyah/PROJECTS/flutter/.pub-cache/git/xulu_services-bbbf79ff31ad7181772835f0a18b03fd723f25c4/",
+      "rootUri": "file:///Users/hendinoviansyah/PROJECTS/flutter/.pub-cache/git/xulu_services-69a9019d1da3e631c00f9266459638fd571f18b8/",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     },
@@ -542,7 +542,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-03-23T04:06:27.094019Z",
+  "generated": "2021-03-24T04:21:26.444870Z",
   "generator": "pub",
   "generatorVersion": "2.12.2"
 }
