@@ -614,7 +614,7 @@
         <entry key="xulu_services">
           <value>
             <list>
-              <option value="$PROJECT_DIR$/../flutter/.pub-cache/git/xulu_services-bbbf79ff31ad7181772835f0a18b03fd723f25c4/lib" />
+              <option value="$PROJECT_DIR$/../flutter/.pub-cache/git/xulu_services-69a9019d1da3e631c00f9266459638fd571f18b8/lib" />
             </list>
           </value>
         </entry>
@@ -628,7 +628,7 @@
       </option>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../flutter/.pub-cache/git/xulu_services-bbbf79ff31ad7181772835f0a18b03fd723f25c4/lib" />
+      <root url="file://$PROJECT_DIR$/../flutter/.pub-cache/git/xulu_services-69a9019d1da3e631c00f9266459638fd571f18b8/lib" />
       <root url="file://$PROJECT_DIR$/../flutter/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-18.0.0/lib" />
       <root url="file://$PROJECT_DIR$/../flutter/.pub-cache/hosted/pub.dartlang.org/analyzer-1.2.0/lib" />
       <root url="file://$PROJECT_DIR$/../flutter/.pub-cache/hosted/pub.dartlang.org/args-2.0.0/lib" />
