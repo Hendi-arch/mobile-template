@@ -12,15 +12,15 @@
   <component name="ChangeListManager">
     <list default="true" id="a3ecdb3c-6fe8-47b0-b8fe-9a942a855276" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/hendinoviansyah.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/hendinoviansyah.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/views/startup/local_widgets/body.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/startup/local_widgets/body.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/viewmodels/startup/startup_view_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/viewmodels/startup/startup_view_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616560829414</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update">
+      <created>1616643552775</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616643552775</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,22 +159,26 @@
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="100" y="123" width="1240" height="611" key="AVDManager/0.23.1440.811@0.23.1440.811" timestamp="1616600594155" />
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1616604493361">
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1616692274475">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1616604493361" />
-    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1616604493361">
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1616692274475" />
+    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1616692274474">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1616604493361" />
-    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1616604493360">
+    <state width="1398" height="285" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1616692274474" />
+    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1616692274474">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1616604493360" />
-    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1616604493361">
+    <state width="1398" height="285" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1616692274474" />
+    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1616692274475">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1616604493361" />
+    <state width="1398" height="285" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1616692274475" />
+    <state x="473" y="138" key="RollbackChangesDialog" timestamp="1616643527677">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="473" y="138" key="RollbackChangesDialog/0.23.1440.811@0.23.1440.811" timestamp="1616643527677" />
     <state x="221" y="67" key="SettingsEditor" timestamp="1616560005296">
       <screen x="0" y="23" width="1440" height="811" />
     </state>

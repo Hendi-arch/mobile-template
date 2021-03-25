@@ -435,7 +435,7 @@
     },
     {
       "name": "stacked",
-      "rootUri": "file:///Users/hendinoviansyah/PROJECTS/flutter/.pub-cache/hosted/pub.dartlang.org/stacked-1.9.7",
+      "rootUri": "file:///Users/hendinoviansyah/PROJECTS/flutter/.pub-cache/hosted/pub.dartlang.org/stacked-1.9.8",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     },
@@ -447,9 +447,9 @@
     },
     {
       "name": "stacked_services",
-      "rootUri": "file:///Users/hendinoviansyah/PROJECTS/flutter/.pub-cache/hosted/pub.dartlang.org/stacked_services-0.8.0-nullsafety",
+      "rootUri": "file:///Users/hendinoviansyah/PROJECTS/flutter/.pub-cache/hosted/pub.dartlang.org/stacked_services-0.8.0-nullsafety.1",
       "packageUri": "lib/",
-      "languageVersion": "2.9"
+      "languageVersion": "2.12"
     },
     {
       "name": "stream_channel",
@@ -525,9 +525,9 @@
     },
     {
       "name": "xulu_services",
-      "rootUri": "file:///Users/hendinoviansyah/PROJECTS/flutter/.pub-cache/git/xulu_services-69a9019d1da3e631c00f9266459638fd571f18b8/",
+      "rootUri": "file:///Users/hendinoviansyah/PROJECTS/flutter/.pub-cache/git/xulu_services-fb827c1b8ae408c7e5ba1dd79f2ab883507ac0c3/",
       "packageUri": "lib/",
-      "languageVersion": "2.7"
+      "languageVersion": "2.12"
     },
     {
       "name": "yaml",
@@ -542,7 +542,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-03-24T16:46:51.787860Z",
+  "generated": "2021-03-25T17:15:16.084241Z",
   "generator": "pub",
   "generatorVersion": "2.12.2"
 }

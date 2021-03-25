@@ -505,7 +505,7 @@ packages:
       name: stacked
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.9.7"
+    version: "1.9.8"
   stacked_generator:
     dependency: "direct dev"
     description:
@@ -519,7 +519,7 @@ packages:
       name: stacked_services
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.8.0-nullsafety"
+    version: "0.8.0-nullsafety.1"
   stream_channel:
     dependency: transitive
     description:
@@ -608,8 +608,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "69a9019d1da3e631c00f9266459638fd571f18b8"
-      resolved-ref: "69a9019d1da3e631c00f9266459638fd571f18b8"
+      ref: fb827c1b8ae408c7e5ba1dd79f2ab883507ac0c3
+      resolved-ref: fb827c1b8ae408c7e5ba1dd79f2ab883507ac0c3
       url: "git@github.com:Hendi-arch/xulu_services.git"
     source: git
     version: "1.0.0+1"

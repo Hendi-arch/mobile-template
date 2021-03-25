@@ -13,14 +13,14 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # internationalization, localization and other formatter
+  # internationalization, localization and other formatter ( null safety )
   intl: ^0.17.0
 
   # state management
-  stacked: ^1.9.7
+  stacked: ^1.9.8
 
   # http request handling ( null safety beta )
-  dio: ^4.0.0-beta6
+  dio: ^4.0.0-prev3
 
   # cupertinoIcons class for iOS style icons ( null safety )
   cupertino_icons: ^1.0.2
@@ -28,11 +28,11 @@ dependencies:
   # for finding commonly used locations on the filesystem. ( null safety )
   path_provider: ^2.0.1
 
-  # local repo packages
+  # local repo packages ( null safety beta )
   xulu_services: # bundle of services
     git:
       url: git@github.com:Hendi-arch/xulu_services.git
-      ref: 69a9019d1da3e631c00f9266459638fd571f18b8
+      ref: fb827c1b8ae408c7e5ba1dd79f2ab883507ac0c3
 
 dev_dependencies:
   flutter_test:
