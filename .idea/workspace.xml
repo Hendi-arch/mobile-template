@@ -13,9 +13,14 @@
     <list default="true" id="a3ecdb3c-6fe8-47b0-b8fe-9a942a855276" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/hendinoviansyah.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/hendinoviansyah.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/views/startup/local_widgets/body.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/startup/local_widgets/body.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="experimental" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -104,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616559706553</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <created>1616560829413</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616560829414</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,30 +140,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616560594322">
+    <state x="184" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616600462511">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state x="184" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.811@0.23.1440.811" timestamp="1616560594322" />
+    <state x="184" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.811@0.23.1440.811" timestamp="1616600462511" />
     <state x="458" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616470788712">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="458" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.811@0.23.1440.811" timestamp="1616470788712" />
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1616560536320">
+    <state x="100" y="123" width="1240" height="611" key="AVDManager" timestamp="1616600594155">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1616560536320" />
-    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1616560536318">
+    <state x="100" y="123" width="1240" height="611" key="AVDManager/0.23.1440.811@0.23.1440.811" timestamp="1616600594155" />
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1616604493361">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1616560536318" />
-    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1616560536317">
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1616604493361" />
+    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1616604493361">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1616560536317" />
-    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1616560536319">
+    <state width="1398" height="285" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1616604493361" />
+    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1616604493360">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1616560536319" />
+    <state width="1398" height="285" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1616604493360" />
+    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1616604493361">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1616604493361" />
     <state x="221" y="67" key="SettingsEditor" timestamp="1616560005296">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
