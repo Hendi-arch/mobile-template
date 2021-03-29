@@ -608,8 +608,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: fb827c1b8ae408c7e5ba1dd79f2ab883507ac0c3
-      resolved-ref: fb827c1b8ae408c7e5ba1dd79f2ab883507ac0c3
+      ref: "22864b67e58fe2d48d03f14b076e1dc641fa048d"
+      resolved-ref: "22864b67e58fe2d48d03f14b076e1dc641fa048d"
       url: "git@github.com:Hendi-arch/xulu_services.git"
     source: git
     version: "1.0.0+1"

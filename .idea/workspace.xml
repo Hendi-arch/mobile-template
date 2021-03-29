@@ -10,18 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3ecdb3c-6fe8-47b0-b8fe-9a942a855276" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core/services/localization_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/services/localization_service.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="a3ecdb3c-6fe8-47b0-b8fe-9a942a855276" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616643552775</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update dependencies">
+      <created>1617021787220</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617021787220</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,7 +140,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="update &amp; clean code" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="update dependencies" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616600462511">
@@ -159,6 +156,10 @@
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="100" y="123" width="1240" height="611" key="AVDManager/0.23.1440.811@0.23.1440.811" timestamp="1616600594155" />
+    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1617021785862">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1617021785862" />
     <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1616692274475">
       <screen x="0" y="23" width="1440" height="811" />
     </state>

@@ -525,7 +525,7 @@
     },
     {
       "name": "xulu_services",
-      "rootUri": "file:///C:/Users/xulu/AppData/Local/Pub/Cache/git/xulu_services-fb827c1b8ae408c7e5ba1dd79f2ab883507ac0c3/",
+      "rootUri": "file:///C:/Users/xulu/AppData/Local/Pub/Cache/git/xulu_services-22864b67e58fe2d48d03f14b076e1dc641fa048d/",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -542,7 +542,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-03-29T12:41:24.616572Z",
+  "generated": "2021-03-29T12:52:36.813805Z",
   "generator": "pub",
   "generatorVersion": "2.12.2"
 }
