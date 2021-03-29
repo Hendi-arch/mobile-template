@@ -27,10 +27,10 @@ class LocalizationService with ReactiveServiceMixin {
     listenToReactiveValues([_localizationModel, _currentLocaleName]);
   }
 
-  RxValue<String?> _currentLocaleName = RxValue<String?>(initial: '');
+  RxValue<String?> _currentLocaleName = RxValue<String?>('');
 
   RxValue<LocalizationModel> _localizationModel =
-  RxValue<LocalizationModel>(initial: LocalizationModel());
+  RxValue<LocalizationModel>(LocalizationModel());
 
   String? get currentLocaleName => _currentLocaleName.value;
 

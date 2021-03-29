@@ -16,11 +16,12 @@ dependencies:
   # internationalization, localization and other formatter ( null safety )
   intl: ^0.17.0
 
-  # state management
-  stacked: ^1.9.8
+  # state management ( null safety )
+  stacked: ^2.0.0
+  observable_ish: ^3.0.0
 
-  # http request handling ( null safety beta )
-  dio: ^4.0.0-prev3
+  # http request handling ( null safety )
+  dio: ^4.0.0
 
   # cupertinoIcons class for iOS style icons ( null safety )
   cupertino_icons: ^1.0.2
@@ -39,7 +40,7 @@ dev_dependencies:
     sdk: flutter
 
   build_runner:
-  stacked_generator: ^0.2.6
+  stacked_generator:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
