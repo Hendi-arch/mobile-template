@@ -18,6 +18,7 @@ dependencies:
 
   # state management ( null safety )
   stacked: ^2.0.0
+  flutter_hooks: ^0.16.0
   observable_ish: ^3.0.0
 
   # http request handling ( null safety )
