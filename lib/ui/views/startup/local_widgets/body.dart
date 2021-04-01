@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../widgets/loading_widget.dart';
+import '../../../widgets/basic/loading_widget.dart';
 
 class Body extends StatelessWidget {
   @override

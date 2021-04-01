@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'custom_text_widget.dart';
-import 'icon_widget.dart';
+import '../basic/custom_text_widget.dart';
+import '../basic/icon_widget.dart';
 
 class PopUpMenuWidget<T> extends StatelessWidget {
   final IconData icon;
